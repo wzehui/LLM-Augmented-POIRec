@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "LLM-Sequential-Recommendation"
+version = "1.0.0"
+description = ""
+authors = ["DH Research"]
+packages = [{ include = "main" }]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pandas = "^1.4.2"
+ipykernel = "^6.13.0"
+jupyter-contrib-nbextensions = "^0.5.1"
+scipy = "^1.8.1"
+import-ipynb = "^0.1.4"
+pandarallel = "^1.6.1"
+tqdm = "^4.64.0"
+multiprocess = "^0.70.13"
+jupyterlab-code-formatter = "^1.4.11"
+papermill = "^2.3.4"
+scikit-optimize = "^0.9.0"
+numpy = "^1.23"
+openai = "0.27"
+matplotlib = "^3.7.2"
+numba = "^0.57.1"
+google-cloud-aiplatform = "^1.36.4"
+tensorflow = "2.13.0"
+
+[tool.poetry.group.dev.dependencies]
+black = { extras = ["jupyter"], version = "^23.1.0" }
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+jupyterlab-code-formatter = "^1.5.3"
+ipython-autotime = "^0.3.1"
+ipywidgets = "^8.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+target-version = ['py39']
+include = '\.pyi?$'
