@@ -10,9 +10,7 @@ This repository is built upon the codebase of previous work
 [LLM-Sequential-Recommendation](https://github.com/dh-r/LLM-Sequential-Recommendation.git).
 
 Please cite as follows:
-> 
 > ```
->
 > ```
 
 ---
@@ -135,8 +133,8 @@ Then, use `preprocess_embeddings_review.py` and `preprocess_embeddings_photo.
 py` to processes review and photo summaries and generates `review_summary.
 csv` and `photo_summary.csv` respectively.
 
-**💡 Alternative:** summary files are available on HuggingFace: **[wzehui/Yelp-Multimodal-Recommendation](https://huggingface.co/datasets/wzehui/Yelp-Multimodal-Recommendation)**
-. Please place the unzipped dataset under: `./yelp/csv/`
+**💡 Alternative:** summary files are available on HuggingFace: **[wzehui/Yelp-Multimodal-Recommendation (https://huggingface.co/datasets/wzehui/Yelp-Multimodal-Recommendation)**. Please place the unzipped dataset under: `./yelp/csv/`
+
 ---
 
 ## Embedding Generation
