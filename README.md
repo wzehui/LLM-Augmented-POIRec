@@ -107,7 +107,7 @@ Run `filtering.py` to clean and filter the dataset for sequential POI recommenda
 
 The processed and filtered data will be saved to `./yelp/csv/`.
 
-💡 Alternative: if you do not wish to run the preprocessing locally, the 
+**💡 Alternative:** if you do not wish to run the preprocessing locally, the 
 preprocessed and filtered version is available on HuggingFace: **[wzehui/Yelp-Multimodal-Recommendation](https://huggingface.co/datasets/wzehui/Yelp-Multimodal-Recommendation)**. Please place the unzipped dataset under: `./yelp/csv/`
 
 ### (3) Dataset Splitting
@@ -132,7 +132,7 @@ Then, use `preprocess_embeddings_review.py` and `preprocess_embeddings_photo.
 py` to processes review and photo summaries and generates `review_summary.
 csv` and `photo_summary.csv` respectively.
 
-💡 Alternative: summary files are available on HuggingFace: **[wzehui/Yelp-Multimodal-Recommendation (https://huggingface.co/datasets/wzehui/Yelp-Multimodal-Recommendation)**. Please place the unzipped dataset under: `./yelp/csv/`
+**💡 Alternative:** summary files are available on HuggingFace: **[wzehui/Yelp-Multimodal-Recommendation (https://huggingface.co/datasets/wzehui/Yelp-Multimodal-Recommendation)**. Please place the unzipped dataset under: `./yelp/csv/`
 
 ---
 
