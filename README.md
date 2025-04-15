@@ -13,7 +13,6 @@ Please cite as follows:
 > ```
 > ```
 
----
 
 ## Dataset
 
@@ -30,7 +29,6 @@ All experiments are based on the [Yelp Open Dataset](https://www.yelp.com/datase
 
 ✅ Available on HuggingFace: [wzehui/Yelp-Multimodal-Recommendation](https://huggingface.co/datasets/wzehui/Yelp-Multimodal-Recommendation)  
 
----
 
 ## Environment Setup
 
@@ -88,7 +86,6 @@ Now you can activate the environment:
 source $(poetry env info --path)/bin/activate
 ```
 
----
 
 ## Data Processing
 
@@ -118,7 +115,6 @@ The resulting files will be saved under: `./yelp/dataset`
 - `dataset_training`: training set (train/validation) used during hyperparameter tuning.
 - `dataset`: full train/validation/test set used for final evaluation.
 
----
 
 ## LLM-Based Summarization
 This step generates structured summaries from unstructured content using large language models (LLMs). Specifically:
@@ -134,7 +130,6 @@ csv` and `photo_summary.csv` respectively.
 
 **💡 Alternative:** summary files are available on HuggingFace: **[wzehui/Yelp-Multimodal-Recommendation (https://huggingface.co/datasets/wzehui/Yelp-Multimodal-Recommendation)**. Please place the unzipped dataset under: `./yelp/csv/`
 
----
 
 ## Embedding Generation
 The following Python scripts are used to generate various types of embeddings:
@@ -148,7 +143,6 @@ The following Python scripts are used to generate various types of embeddings:
 
 To generate embeddings, run the appropriate script depending on the desired input modality. The output embeddings will be saved in the designated `./yelp/embeddings/` directory.
 
----
 
 ## Model Training
 These scripts are used to search for optimal hyperparameters for different 
@@ -163,7 +157,6 @@ feature categories and their combinations in our experiments.
 
 All best-performing hyperparameter combinations are saved under the `results/` directory.
 
----
 
 ## Model Test
 These scripts are used to evaluate model performance on the test dataset 
