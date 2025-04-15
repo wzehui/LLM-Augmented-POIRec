@@ -1,0 +1,18 @@
+# macOS system files
+.DS_Store
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+
+# Jupyter and debug cache
+.ipynb_checkpoints/
+*.nbconvert.*
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
