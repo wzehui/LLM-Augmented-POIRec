@@ -6,12 +6,8 @@ unstructured reviews and photos into structured text, followed by
 standardized embedding generation. Embedding configurations are evaluated 
 under various feature combinations using BERT4Rec.  
 
-This repository is built upon the codebase of previous work 
+This repository is built upon the codebase by Boz et al.
 [LLM-Sequential-Recommendation](https://github.com/dh-r/LLM-Sequential-Recommendation.git).
-
-Please cite as follows:
-> ```
-> ```
 
 
 ## Dataset
@@ -27,7 +23,7 @@ All experiments are based on the [Yelp Open Dataset](https://www.yelp.com/datase
 | `review_summary.csv`   | DeepSeek-R1 generated summaries of reviews                                  |
 | `photo_summary.csv`    | GPT-4o generated summaries of business images                               |
 
-✅ Available on HuggingFace: [wzehui/Yelp-Multimodal-Recommendation](https://huggingface.co/datasets/wzehui/Yelp-Multimodal-Recommendation)  
+✅ Available on: [Yelp-Multimodal-Recommendation](https://drive.google.com/drive/folders/14cFLJo6g-uZVbk-PiKFCw1yPWN6cWMn2?usp=share_link)  
 
 
 ## Environment Setup
