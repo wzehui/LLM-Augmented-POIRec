@@ -123,7 +123,7 @@ Then, use `preprocess_embeddings_review.py` and `preprocess_embeddings_photo.
 py` to processes review and photo summaries and generates `review_summary.
 csv` and `photo_summary.csv` respectively.
 
-**💡 Alternative:** summary files are available on : [Yelp-Multimodal-Recommendation] (https://drive.google.com/drive/folders/14cFLJo6g-uZVbk-PiKFCw1yPWN6cWMn2?usp=share_link). Please place the unzipped dataset under: `./yelp/csv/`
+**💡 Alternative:** summary files are available on : [Yelp-Multimodal-Recommendation](https://drive.google.com/drive/folders/14cFLJo6g-uZVbk-PiKFCw1yPWN6cWMn2?usp=share_link). Please place the unzipped dataset under: `./yelp/csv/`
 
 
 ## Embedding Generation
