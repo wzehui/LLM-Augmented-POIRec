@@ -6,8 +6,7 @@ unstructured reviews and photos into structured text, followed by
 standardized embedding generation. Embedding configurations are evaluated 
 under various feature combinations using BERT4Rec.  
 
-This repository is built upon the codebase by Boz et al.
-[LLM-Sequential-Recommendation](https://github.com/dh-r/LLM-Sequential-Recommendation.git).
+This repository is built upon the codebase from [LLM-Sequential-Recommendation](https://github.com/dh-r/LLM-Sequential-Recommendation.git).
 
 
 ## Dataset
