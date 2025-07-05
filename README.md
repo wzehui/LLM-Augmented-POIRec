@@ -22,7 +22,7 @@ All experiments are based on the [Yelp Open Dataset](https://www.yelp.com/datase
 | `review_summary.csv`   | DeepSeek-R1 generated summaries of reviews                                  |
 | `photo_summary.csv`    | GPT-4o generated summaries of business images                               |
 
-✅ Available on: [Yelp-Multimodal-Recommendation](wzehui/Yelp-Multimodal-Recommendation)
+✅ Available on: [Yelp-Multimodal-Recommendation](https://huggingface.co/datasets/wzehui/Yelp-Multimodal-Recommendation)
 
 
 ## Environment Setup
