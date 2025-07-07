@@ -1,5 +1,5 @@
 # LLM-Augmented Multimodal Embeddings for POI Recommendation
-We explore how different types of business-side information—including 
+We explore how different types of business-side information, including 
 structured metadata, geolocation, user reviews, and user-uploaded 
 photos—impact next-POI recommendation. Our pipeline uses LLMs to summarize 
 unstructured reviews and photos into structured text, followed by 
