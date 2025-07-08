@@ -163,3 +163,10 @@ using the best hyperparameter configurations identified during the tuning phase.
   information (modality-aware)
 
 The NDCG, Hit Rate, MRR, Coverage, Serendipity, and Novelty results generated from 5 trials are saved in the `results/` directory.
+
+## 📖 Citation
+If you use this repository or the associated dataset, please cite our RecSys 2025 paper:
+> Zehui Wang, Wolfram Höpken, Dietmar Jannach.  
+> *Beyond Visit Trajectories: Enhancing POI Recommendation via LLM-Augmented Text and Image Representations*.  
+> In *Proceedings of the 19th ACM Conference on Recommender Systems (RecSys '25)*, Prague, Czech Republic, Sept. 2025.  
+> [DOI: 10.1145/3705328.3748014](https://doi.org/10.1145/3705328.3748014)
