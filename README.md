@@ -166,7 +166,16 @@ The NDCG, Hit Rate, MRR, Coverage, Serendipity, and Novelty results generated fr
 
 ## 📖 Citation
 If you use this repository or the associated dataset, please cite our RecSys 2025 paper:
-> Zehui Wang, Wolfram Höpken, Dietmar Jannach.  
-> *Beyond Visit Trajectories: Enhancing POI Recommendation via LLM-Augmented Text and Image Representations*.  
-> In *Proceedings of the 19th ACM Conference on Recommender Systems (RecSys '25)*, Prague, Czech Republic, Sept. 2025.  
-> [DOI: 10.1145/3705328.3748014](https://doi.org/10.1145/3705328.3748014)
+@inproceedings{wang2025llmaugmented,
+  author       = {Zehui Wang and Wolfram H{\"o}pken and Dietmar Jannach},
+  title        = {Beyond Visit Trajectories: Enhancing POI Recommendation via LLM-Augmented Text and Image Representations},
+  booktitle    = {Proceedings of the Nineteenth ACM Conference on Recommender Systems (RecSys '25)},
+  year         = {2025},
+  isbn         = {979-8-4007-1364-4/2025/09},
+  publisher    = {Association for Computing Machinery},
+  address      = {New York, NY, USA},
+  doi          = {10.1145/3705328.3748014},
+  url          = {https://doi.org/10.1145/3705328.3748014},
+  location     = {Prague, Czech Republic},
+  month        = sep
+}
